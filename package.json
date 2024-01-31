@@ -1,0 +1,23 @@
+{
+  "name": "project_midnight-backend",
+  "version": "1.0.0",
+  "description": "backend for project_midnight",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WAVONA-team/project_midnight-backend.git"
+  },
+  "author": "gosyav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WAVONA-team/project_midnight-backend/issues"
+  },
+  "homepage": "https://github.com/WAVONA-team/project_midnight-backend#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
