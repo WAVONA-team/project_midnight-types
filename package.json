@@ -1,22 +1,24 @@
 {
-  "name": "project_midnight-backend",
-  "version": "1.0.0",
-  "description": "backend for project_midnight",
-  "main": "index.ts",
+  "name": "project_midnight",
+  "version": "0.0.7",
+  "description": "types for project_midnight",
+  "main": "./dest/index.js",
+  "types": "./types/index.d.ts",
   "type": "module",
   "scripts": {
-    "build": "tsc --watch"
+    "build": "rm -rf dest && rm -rf types && npx tsc -p tsconfig.json",
+    "dev": "tsc --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WAVONA-team/project_midnight-backend.git"
+    "url": "git+https://github.com/WAVONA-team/project_midnight-types.git"
   },
   "author": "gosyav",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/WAVONA-team/project_midnight-backend/issues"
+    "url": "https://github.com/WAVONA-team/project_midnight-types/issues"
   },
-  "homepage": "https://github.com/WAVONA-team/project_midnight-backend#readme",
+  "homepage": "https://github.com/WAVONA-team/project_midnight-types#readme",
   "devDependencies": {
     "typescript": "^5.3.3"
   }
