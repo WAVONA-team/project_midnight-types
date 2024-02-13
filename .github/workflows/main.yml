@@ -36,5 +36,5 @@ jobs:
           git config --global user.name "Vo7kov"
           git pull origin main
           npm version patch
-          git push origin main
           npm publish
+          git push origin main
