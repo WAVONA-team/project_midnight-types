@@ -9,10 +9,10 @@ export type Track = {
   updatedAt: Date;
 
   url: string;
-  imgUrl: string;
-  author: string;
+  imgUrl: string | null;
+  author: string | null;
   source: string;
 
-  playlist: Playlist[];
+  playlist: Playlist[] | null;
   user: User;
 };

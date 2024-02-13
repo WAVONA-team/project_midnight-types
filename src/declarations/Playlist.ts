@@ -8,6 +8,6 @@ export type Playlist = {
   createdAt: Date;
   updatedAt: Date;
 
-  tracks: Track[];
+  tracks: Track[] | null;
   user: User;
 };
