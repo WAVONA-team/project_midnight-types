@@ -34,7 +34,7 @@ jobs:
         run: |
           git config --global user.email "jegor.volkov.a@gmail.com"
           git config --global user.name "Vo7kov"
-          npm version patch
-          npm publish
           git pull origin main
+          npm version patch
           git push origin main
+          npm publish
