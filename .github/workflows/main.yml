@@ -32,5 +32,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
+          git config --global user.email "jegor.volkov.a@gmail.com"
+          git config --global user.name "Vo7kov"
+          git reset --hard
           npm version patch
           npm publish
