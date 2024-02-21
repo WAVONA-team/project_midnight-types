@@ -14,5 +14,5 @@ export type NormalizedUser = {
   appleOAUTH: string | null;
 
   tracks?: Track[] | null;
-  playlist?: Playlist[] | null;
+  playlists?: Playlist[] | null;
 };

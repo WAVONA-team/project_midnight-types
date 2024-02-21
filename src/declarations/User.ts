@@ -20,5 +20,5 @@ export type User = {
   appleOAUTH: string | null;
 
   tracks?: Track[] | null;
-  playlist?: Playlist[] | null;
+  playlists?: Playlist[] | null;
 };
