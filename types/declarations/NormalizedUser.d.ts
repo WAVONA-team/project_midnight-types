@@ -10,5 +10,5 @@ export type NormalizedUser = {
     vkOAUTH: string | null;
     appleOAUTH: string | null;
     tracks?: Track[] | null;
-    playlist?: Playlist[] | null;
+    playlists?: Playlist[] | null;
 };
