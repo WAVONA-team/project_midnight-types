@@ -5,6 +5,7 @@ import { type Track } from "./Track";
 export type User = {
   id: string;
   activationToken: string | null;
+  resetToken: string | null;
   refreshToken: Token;
 
   createdAt: Date;
@@ -16,6 +17,7 @@ export type User = {
   spotifyOAUTH: string | null;
   yandexOAUTH: string | null;
   vkOAUTH: string | null;
+  appleOAUTH: string | null;
 
   tracks?: Track[] | null;
   playlist?: Playlist[] | null;
