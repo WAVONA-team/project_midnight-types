@@ -6,7 +6,7 @@ export type User = {
   id: string;
   activationToken: string | null;
   resetToken: string | null;
-  refreshToken: Token;
+  refreshToken: Token | null;
 
   createdAt: Date;
   updatedAt: Date;
