@@ -5,6 +5,6 @@ export type Playlist = {
     userId: string;
     createdAt: Date;
     updatedAt: Date;
-    tracks: Track[] | null;
-    user: User;
+    tracks?: Track[] | null;
+    user?: User | null;
 };

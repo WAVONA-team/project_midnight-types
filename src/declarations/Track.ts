@@ -13,6 +13,6 @@ export type Track = {
   author: string | null;
   source: string;
 
-  playlist: Playlist[] | null;
-  user: User;
+  playlist?: Playlist[] | null;
+  user?: User | null;
 };

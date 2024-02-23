@@ -9,6 +9,6 @@ export type Track = {
     imgUrl: string | null;
     author: string | null;
     source: string;
-    playlist: Playlist[] | null;
-    user: User;
+    playlist?: Playlist[] | null;
+    user?: User | null;
 };
