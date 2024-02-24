@@ -16,7 +16,7 @@
     "baseUrl": "src",
     "outDir": "dest",
     "declaration": true,
-    "declarationDir": "dest/types"
+    "declarationDir": "./types"
   },
   "exclude": ["node_modules", "dest"]
 }
