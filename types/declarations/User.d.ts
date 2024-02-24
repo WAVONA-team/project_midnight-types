@@ -17,3 +17,19 @@ export type User = {
     tracks?: Track[] | null;
     playlists?: Playlist[] | null;
 };
+export type NormalizedUser = {
+    id: string;
+    email: string;
+    createdAt: Date;
+    updatedAt: Date;
+    spotifyOAUTH: string | null;
+    yandexOAUTH: string | null;
+    vkOAUTH: string | null;
+    appleOAUTH: string | null;
+    tracks?: Track[] | null;
+    playlists?: Playlist[] | null;
+};
+export type UserWithAccessToken = {
+    user: NormalizedUser;
+    accessToken: string;
+};
