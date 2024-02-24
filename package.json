@@ -1,12 +1,12 @@
 {
   "name": "project_midnight",
-  "version": "0.0.25",
+  "version": "0.0.26",
   "description": "types for project_midnight",
   "main": "./dest/index.js",
   "types": "./types/index.d.ts",
   "type": "module",
   "scripts": {
-    "build": "rm -rf dest && npx tsc -p tsconfig.json",
+    "build": "rm -rf dest && rm -rf types && npx tsc -p tsconfig.json",
     "dev": "tsc --watch"
   },
   "repository": {
