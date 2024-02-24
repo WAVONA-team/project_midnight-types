@@ -13,13 +13,10 @@
     "skipLibCheck": true,
 
     /* Paths */
-    "baseUrl": "./src",
-    "outDir": "./dest",
+    "baseUrl": "src",
+    "outDir": "dest",
     "declaration": true,
-    "declarationDir": "./types"
+    "declarationDir": "dest/types"
   },
-  "files": [
-    "./src/index.ts",
-  ],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "dest"]
 }
