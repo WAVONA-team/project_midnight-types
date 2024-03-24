@@ -8,7 +8,9 @@ export type Track = {
   createdAt: Date;
   updatedAt: Date;
 
+  title: string;
   url: string;
+  urlId: string;
   imgUrl: string | null;
   author: string | null;
   source: string;
