@@ -11,6 +11,7 @@ export type User = {
     email: string;
     password: string;
     spotifyOAUTH: string | null;
+    spotifyRefresh: string | null;
     yandexOAUTH: string | null;
     vkOAUTH: string | null;
     appleOAUTH: string | null;
@@ -23,6 +24,7 @@ export type NormalizedUser = {
     createdAt: Date;
     updatedAt: Date;
     spotifyOAUTH: string | null;
+    spotifyRefresh: string | null;
     yandexOAUTH: string | null;
     vkOAUTH: string | null;
     appleOAUTH: string | null;
