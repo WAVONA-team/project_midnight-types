@@ -3,7 +3,8 @@ import { type User } from "./User";
 
 export type Track = {
   id: string;
-  userId: string;
+  userIdTracks: string;
+  userIdSearchHistory: string;
 
   createdAt: Date;
   updatedAt: Date;
