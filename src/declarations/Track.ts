@@ -14,6 +14,7 @@ export type Track = {
   imgUrl: string | null;
   author: string | null;
   source: string;
+  duration: string;
 
   playlist?: Playlist[] | null;
   user?: User | null;
