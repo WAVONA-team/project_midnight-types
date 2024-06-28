@@ -16,7 +16,10 @@ export type User = {
     vkOAUTH: string | null;
     appleOAUTH: string | null;
     tracks?: Track[] | null;
+    searchHistory?: Track[] | null;
     playlists?: Playlist[] | null;
+    savedTracks?: Playlist | null;
+    favouriteTracks?: Playlist | null;
 };
 export type NormalizedUser = {
     id: string;
@@ -29,7 +32,10 @@ export type NormalizedUser = {
     vkOAUTH: string | null;
     appleOAUTH: string | null;
     tracks?: Track[] | null;
+    searchHistory?: Track[] | null;
     playlists?: Playlist[] | null;
+    savedTracks?: Playlist | null;
+    favouriteTracks?: Playlist | null;
 };
 export type UserWithAccessToken = {
     user: NormalizedUser;

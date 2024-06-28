@@ -21,7 +21,11 @@ export type User = {
   appleOAUTH: string | null;
 
   tracks?: Track[] | null;
+  searchHistory?: Track[] | null;
+
   playlists?: Playlist[] | null;
+  savedTracks?: Playlist | null;
+  favouriteTracks?: Playlist | null;
 };
 
 export type NormalizedUser = {
@@ -38,7 +42,11 @@ export type NormalizedUser = {
   appleOAUTH: string | null;
 
   tracks?: Track[] | null;
+  searchHistory?: Track[] | null;
+
   playlists?: Playlist[] | null;
+  savedTracks?: Playlist | null;
+  favouriteTracks?: Playlist | null;
 };
 
 export type UserWithAccessToken = {

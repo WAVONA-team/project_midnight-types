@@ -3,11 +3,17 @@ import { type User } from "./User";
 
 export type Playlist = {
   id: string;
-  userId: string;
+  name: string;
+
+  userIdCustomPlaylists: string;
+  userIdSavedTracks: string;
+  userIdFavouriteTracks: string;
 
   createdAt: Date;
   updatedAt: Date;
 
   tracks?: Track[] | null;
-  user?: User | null;
+  userForCustomPlaylists?: User | null;
+  userForSavedTracks?: User | null;
+  userForFavouriteTracks?: User | null;
 };
