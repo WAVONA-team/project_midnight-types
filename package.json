@@ -1,6 +1,6 @@
 {
   "name": "project_midnight",
-  "version": "0.0.37",
+  "version": "0.0.38",
   "description": "types for project_midnight",
   "main": "./dest/index.js",
   "types": "./types/index.d.ts",
