@@ -4,6 +4,7 @@ export type Track = {
     id: string;
     userIdSearchHistory: string;
     isFavourite: boolean;
+    isSaved: boolean;
     createdAt: Date;
     updatedAt: Date;
     title: string;
